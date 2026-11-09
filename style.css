@@ -1,0 +1,80 @@
+/* تنسيقات مشروع تأجير السيارات - عمل الطلاب */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* خلفية فاتحة ومريحة للعين بدلاً من الأبيض الناصع */
+    color: #222222;
+    margin: 40px;
+    direction: rtl;
+    text-align: right;
+    line-height: 1.6;
+}
+
+/* تنسيق العناوين */
+h1 {
+    color: #1a5276; /* لون أزرق هادئ يناسب مواقع السيارات */
+    font-size: 26px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h2 {
+    color: #2e4053;
+    font-size: 20px;
+}
+
+/* جدول السيارات */
+table {
+    border-collapse: collapse;
+    width: 100%; /* أفضل أن يكون العرض كاملاً ليكون منسقاً أكثر */
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #b2babb;
+    padding: 10px 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2e4053; /* رأس الجدول بلون مميز وواضح */
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f3f4; /* تلوين صفوف الجدول بالتبادل بشكل بسيط وجميل */
+}
+
+/* الروابط */
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* شريط التنقل */
+.navbar {
+    background-color: #e5e8e8;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    color: #e74c3c;
+    background-color: #d5dbdb;
+    border-radius: 3px;
+}
